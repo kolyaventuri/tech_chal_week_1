@@ -5,7 +5,7 @@ const largest = require('../lib/problem_4');
 
 describe('Problem 4', () => {
   it('should be able to arrange the largest number', () => {
-    expect([50, 2, 1, 9]).to.eq(95021);
+    expect(largest([50, 2, 1, 9])).to.eq(95021);
   });
 
   it('should be able to do this with different numbers', () => {
