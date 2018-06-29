@@ -14,10 +14,10 @@ describe('Problem 2', () => {
   });
 
   it('should be able to combine two lists of differing length', () => {
-    let a = ['a', 'b', 'c'];
-    let b = [1, 2, 3, 4, 5];
-    let expected = ['a', 1, 'b', 2, 'c', 4, 5];
+    let a2 = ['a', 'b', 'c'];
+    let b2 = [1, 2, 3, 4, 5];
+    let expected = ['a', 1, 'b', 2, 'c', 3, 4, 5];
 
-    expect(combine(a, b)).to.eql(expected);
+    expect(combine(a2, b2)).to.eql(expected);
   });
 });
